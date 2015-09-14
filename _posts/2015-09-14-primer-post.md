@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Mi primer POST!"
 date: 2015-09-14
 ---
