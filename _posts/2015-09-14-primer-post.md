@@ -4,6 +4,19 @@ title: "Mi primer POST!"
 date: 2015-09-14
 ---
 
-Well. Finally got around to putting this old website together.
-Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. 
-It actually is a lot easier than I thought it was going to be.
+Probando github pages para utilizar como sitio estático / Blogging
+
+#Ejemplos en MD (MarkDown)
+
+##Cita
+> El desarrollo es como comer una naranja. Primero esta la cascara, luego la dulce, dulce pulpa...
+
+##Negrita
+**Texto en Negrita**
+
+##Cursiva
+*Texto en Cursiva*
+
+##Link
+['Directo a mi sitio'](www.marioromero.com.ar)
+
