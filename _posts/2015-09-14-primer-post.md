@@ -18,5 +18,5 @@ Probando github pages para utilizar como sitio estático / Blogging
 *Texto en Cursiva*
 
 ### Link
-[Directo a mi sitio](www.marioromero.com.ar)
+[Directo a mi sitio](http://www.marioromero.com.ar)
 
