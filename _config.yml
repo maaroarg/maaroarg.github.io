@@ -1,4 +1,25 @@
-name: Mario Romero
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-cayman
+title: Mario's Log
+description: Notas sobre desarrollo y tecnología
+  
+# URLs
+baseurl: ""
+url: "https://maaroarg.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
