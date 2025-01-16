@@ -4,6 +4,9 @@ description: Un blog minimalista y moderno
 baseurl: ""
 url: "https://username.github.io"
 
+github:
+  branch: new_blog
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
