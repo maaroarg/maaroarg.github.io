@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Error 401 con GitHub Packages en React Native"
 date: 2024-01-16
 categories: [react-native, npm, github]
