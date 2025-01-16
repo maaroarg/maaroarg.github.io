@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cómo deployar GitHub Pages desde un branch específico"
-author: "Mario Romero"
+author: "Tu Nombre"
 date: 2025-01-16 14:00:00 -0500
 categories: jekyll github-pages tutoriales
 ---
@@ -98,6 +98,29 @@ Una vez que hayas pusheado los cambios:
 2. Verás el workflow ejecutándose
 3. Si todo está correcto, tu sitio se publicará en `username.github.io`
 4. El proceso completo puede tomar unos minutos
+
+## Configuración de Reglas de Despliegue
+
+Un error común es recibir el mensaje:
+
+```
+Branch "your-branch" is not allowed to deploy to github-pages due to environment protection rules.
+```
+
+Para solucionarlo, configura las reglas de despliegue usando patrones:
+
+1. Ve a Settings -> Environments
+2. Click en "github-pages"
+3. En "Deployment branches":
+   - Click en "Add deployment branch rule"
+   - Selecciona "Custom branch name pattern"
+   - Usa patrones como:
+     - `*-blog` - permite cualquier branch que termine en -blog
+     - `feature/*` - permite cualquier branch que comience con feature/
+     - `deploy/*` - permite cualquier branch que comience con deploy/
+   - Click en "Save rules"
+
+Esto te da la flexibilidad de crear múltiples branches de desarrollo sin necesidad de actualizar las reglas cada vez.
 
 ## Troubleshooting
 
