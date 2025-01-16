@@ -1,32 +1,10 @@
-theme: jekyll-theme-cayman
-title: Mario's Blog
-description: Tech Log
-
-# URLs
+remote_theme: jekyll/minima
+title: Mi Blog
+description: Un blog minimalista y moderno
 baseurl: ""
-url: "https://maaroarg.github.io"
+url: "https://username.github.io"
 
-# Build settings
-markdown: kramdown
-kramdown:
-  syntax_highlighter: rouge
-  input: GFM
-  hard_wrap: false
-  
-permalink: /:title/
-
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
-
-# Defaults for posts
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "default"
-      author: "Maaroarg"
+  - jekyll-remote-theme

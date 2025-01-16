@@ -1,9 +1,10 @@
 ---
-layout: posts
+layout: post
 title: "Error 401 con GitHub Packages en React Native"
 date: 2024-01-16
 categories: [react-native, npm, github]
 tags: [npm, github-packages, troubleshooting, react-native]
+author: "Mario Romero"
 ---
 
 ## El Problema
@@ -31,10 +32,13 @@ La variable de entorno `GITHUB_ACCESS_TOKEN` contenía un token expirado.
 1. Generar un nuevo Personal Access Token (PAT) en GitHub con los permisos `read:packages`
 
 2. Configurar la variable de entorno de forma persistente en `~/.zshrc` (Mac con Zsh):
+
    ```bash
    echo 'export GITHUB_ACCESS_TOKEN=TOKEN_NUEVO' >> ~/.zshrc
    ```
+
    O en `~/.bashrc` si usas Bash:
+
    ```bash
    echo 'export GITHUB_ACCESS_TOKEN=TOKEN_NUEVO' >> ~/.bashrc
    ```
@@ -47,7 +51,9 @@ La variable de entorno `GITHUB_ACCESS_TOKEN` contenía un token expirado.
 ## Lección Aprendida
 
 Es importante notar que el comando `export` por sí solo:
+
 ```bash
 export GITHUB_ACCESS_TOKEN=TOKEN_NUEVO
 ```
+
 solo mantiene la variable durante la sesión actual de la terminal. Para una solución permanente, es necesario añadirla al archivo de configuración del shell.
