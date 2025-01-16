@@ -1,21 +1,27 @@
 theme: jekyll-theme-cayman
-title: Mario's Log
-description: Notas sobre desarrollo y tecnología
-  
+title: Mario's Blog
+description: Tech Log
+
 # URLs
 baseurl: ""
 url: "https://maaroarg.github.io"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+  hard_wrap: false
+  
 permalink: /:title/
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Defaults
+# Defaults for posts
 defaults:
   -
     scope:
@@ -23,3 +29,4 @@ defaults:
       type: "posts"
     values:
       layout: "default"
+      author: "Maaroarg"
