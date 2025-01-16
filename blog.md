@@ -1,0 +1,51 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+# Todos los Posts
+
+{% for post in site.posts %}
+  <article class="post-preview">
+    <h3>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h3>
+    <div class="post-meta">
+      {{ post.date | date: "%B %e, %Y" }}
+    </div>
+    <div class="post-excerpt">
+      {{ post.excerpt }}
+    </div>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer más →</a>
+  </article>
+  <hr>
+{% endfor %}
+
+<style>
+.post-preview {
+  margin-bottom: 2em;
+}
+.post-meta {
+  color: #666;
+  font-size: 0.9em;
+  margin: 0.5em 0;
+}
+.post-excerpt {
+  margin: 1em 0;
+}
+.read-more {
+  display: inline-block;
+  margin-top: 1em;
+  color: #157878;
+  text-decoration: none;
+}
+.read-more:hover {
+  text-decoration: underline;
+}
+hr {
+  margin: 2em 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+</style>
