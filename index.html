@@ -1,9 +1,20 @@
 ---
-title: The Log
 layout: default
 ---
-<div class="blurb">
-	<h1>Another tech blog</h1>
-</div><!-- /.blurb -->
-        		
 
+# Blog Posts
+
+{% for post in site.posts %}
+  <article class="post">
+    <h2>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <div class="entry">
+      {{ post.excerpt }}
+    </div>
+    <div class="date">
+      Written on {{ post.date | date: "%B %e, %Y" }}
+    </div>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+  </article>
+{% endfor %}
