@@ -1,11 +1,8 @@
 remote_theme: jekyll/minima
-title: Mi Blog
-description: Un blog minimalista y moderno
+title: The Log - Mario Romero
+description: Soluciones a problemas de programación y tecnología
 baseurl: ""
-url: "https://username.github.io"
-
-github:
-  branch: new_blog
+url: "https://maaroarg.github.io"
 
 plugins:
   - jekyll-feed
