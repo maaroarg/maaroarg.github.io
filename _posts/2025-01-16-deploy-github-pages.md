@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cómo deployar GitHub Pages desde un branch específico"
-author: "Tu Nombre"
+author: "Mario Romero"
 date: 2025-01-16 14:00:00 -0500
 categories: jekyll github-pages tutoriales
 ---
