@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Error 401 con GitHub Packages en React Native"
-date: 2024-01-16
+date: 2025-01-16
 categories: [react-native, npm, github]
 tags: [npm, github-packages, troubleshooting, react-native]
 author: "Mario Romero"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "React Native: Conflicto entre Portal y Context en implementación de Modales"
-date: 2024-01-27 09:00:00 -0300
+date: 2025-01-27 09:00:00 -0300
 categories: react-native react-native-paper context portal
 ---
 
