@@ -7,8 +7,6 @@ tags: [kubernetes, google-cloud, gke, docker, mac]
 author: "Mario Romero"
 ---
 
-# Resolviendo errores del GKE Auth Plugin en MacOS
-
 ## El Problema
 
 Recientemente me encontré con un error común pero confuso al intentar conectarme a un cluster de Google Kubernetes Engine (GKE) en MacOS. El error se veía así:

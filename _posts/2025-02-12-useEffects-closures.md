@@ -7,8 +7,6 @@ tags: [react-native, hypertrack, debugging, móvil, ios]
 author: Mario Romero
 ---
 
-# React Hooks, Closures y FSM: Un Caso de Estudio
-
 ## El Problema
 
 Mientras trabajaba en una implementación de una máquina de estados finitos (FSM) en React para manejar el tracking de ubicación, me encontré con un problema interesante relacionado con closures y React hooks.
@@ -118,5 +116,3 @@ export function useTrackingFSM(debug = false) {
 ## Conclusión
 
 Este caso demuestra la importancia de entender profundamente cómo funcionan los closures en React y cómo pueden afectar a nuestras aplicaciones. La solución con useRef no solo resolvió el problema inmediato, sino que también proporcionó un patrón reutilizable para situaciones similares donde necesitamos acceder a valores actualizados dentro de callbacks en una FSM.
-
----

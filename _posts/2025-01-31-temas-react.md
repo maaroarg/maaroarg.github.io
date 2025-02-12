@@ -6,8 +6,6 @@ categories: react javascript frontend
 author: Mario Romero
 ---
 
-# Entendiendo useState, useRef y useCallback en React
-
 En el desarrollo con React, los hooks son una parte fundamental para manejar el estado y otros aspectos de nuestros componentes. Hoy vamos a profundizar en tres hooks esenciales: useState, useRef y useCallback, entendiendo sus diferencias, casos de uso y mejores prácticas.
 
 ## useState vs useRef: ¿Cuándo usar cada uno?
