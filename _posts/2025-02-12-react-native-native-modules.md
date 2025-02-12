@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Depurando Crashes del Event Emitter en React Native con HyperTrack SDK"
-date: 2024-02-12
+date: 2025-02-12
 tags: [react-native, hypertrack, debugging, móvil, ios]
 author: Mario Romero
 ---
